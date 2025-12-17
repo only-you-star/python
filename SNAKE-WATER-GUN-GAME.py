@@ -16,7 +16,7 @@ def game():
     if computer == yourechoice:
         print("It's a draw!")
     else:
-        if computer - yourechoice == 1 or computer - yourechoice == -2:
+        if computer-yourechoice==1 or computer-yourechoice==-2:
             print("You lose!")
         else:
             print("You win!")
